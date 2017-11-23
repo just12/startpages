@@ -1,0 +1,10 @@
+*{color: #fff;font-family: sans-serif;text-decoration: none;font-size: 15px;transition: .3s;}
+body{background-color: #ccc;background-size: cover;background-position: center;background-repeat: no-repeat;background-attachment: fixed;margin: 0px;position: fixed;width: 100%;height: 100%;}
+div#main{position: absolute;transform: translate(-50%,-50%);top: 50%;left: 50%;width: 650px;box-shadow: 0px 13px 20px -5px rgba(0,0,0,.4);z-index: 2;}
+table{background-color: #111;width: 500px;height: 210px;left: 0px;z-index: 2;}
+table tr a{display: block;height: 100%;line-height: 70px;z-index: 2;}
+table tr a:hover, div#menu a:hover{color: #aaa;}
+div#picture{position: absolute;width: 150px;height: 100%;background-color: #222;right: 0px;background-position: center;background-size: cover;z-index: 2;}
+div#menu{position: fixed;height: calc(100% - 40px);width: 175px;border: 20px solid #111;background-color: #111;left: -195px;z-index: 2;}
+div#menu:hover{left: 0px;}
+div#menu a{display: block;padding: 20px;z-index: 2;}
