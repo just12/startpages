@@ -1,8 +1,9 @@
-$(document).ready(function(){
-  var randomNumber = Math.floor((Math.random() * 20) + 1);
-  var randomBackground = randomNumber + ".jpg";
-  $("div#picture").css("background-image", "url(src/b/" + randomBackground + ")");
-  $("table").addClass("a" + randomNumber);
-  $("body").addClass("b" + randomNumber);
-  $("div#menu").addClass("a" + randomNumber);
+document.addEventListener('DOMContentLoaded', function() {
+	var randomNumber = Math.floor((Math.random() * 20) + 1);
+	var randomBackground = randomNumber + ".jpg";
+
+	document.querySelector("div#picture").style.backgroundImage = "url(src/b/" + randomBackground + ")";
+	document.querySelector("table").classList.add("a" + randomNumber);
+	document.querySelector("body").classList.add("b" + randomNumber);
+	document.querySelector("div#menu").classList.add("a" + randomNumber);
 });
