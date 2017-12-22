@@ -1,0 +1,75 @@
+html{font-family: 'Montserrat', monospace;}
+
+a{text-decoration: none;}
+
+body{margin: 0px;}
+
+.cuadro{
+    height:150px;
+    width: 600px;
+    margin: 10px auto;
+    position: relative;
+    top: 50px;
+    box-shadow: 2px 2px 5px #000 !important;
+}
+
+video{
+    width: 600px;
+    height: 150px;
+    position: relative;
+    top: -1px;
+}
+
+#wellcome{text-align: center;}
+
+#wellcome a{
+    font-size: 44px;
+    position: relative;
+    top: 0px;
+}
+
+#links{height: 90px;}
+
+.linksdiv{
+    width: 200px !important;
+    height: 85px !important;
+}
+
+#grupo1{
+    position: absolute;
+    top: 2px;
+    left: 0px;
+}
+
+#grupo2{
+    position: absolute;
+    top: 2px;
+    left: 200px;
+}
+
+#grupo3{
+    position: absolute;
+    top: 2px;
+    left: 400px;
+}
+
+.links{
+    display: block;
+    text-align: center;
+    transition: .3s;
+    position: relative;
+    top: 5px;
+}
+
+span{font-weight: bolder}
+
+#wellcome{height: 65px !important;}
+
+#foto{
+    height: 148px !important;
+    background-image: url(./src/tumblr_ofepjc4wgt1r5n34uo1_540.png) !important;
+    background-position: 370px -50px;
+    background-repeat: no-repeat;
+}
+
+video:hover{opacity: 0;}

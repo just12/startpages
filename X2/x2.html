@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test</title>
+    <!--<link href="style.css" rel="stylesheet" type="text/css"/>-->
+    
+    <style>
+        :root {
+        --bg:  #0e0e0e !important;   /*gris     */
+        --bg2: #1e1e1e !important;   /*gris2    */
+        --c4:  #0296fb !important;   /*azul     */  
+        --c1:  #ff2525 !important;   /*rojo     */  
+        --c2:  #e2c02b !important;   /*amarillo */
+        --c3:  #33d041 !important;   /*verde    */
+        --w1:  #FFFFFF !important;   /*blanco1  */
+        --w2:  #e3e3e3 !important;   /*blanco2  */
+        }
+
+        @keyframes rainbow {
+            0%   {color: var(--c1);}
+            25%  {color: var(--c2);}
+            50%  {color: var(--c3);}
+            75%  {color: var(--c4);}
+            100% {color: var(--c1);}
+        }
+
+        body{
+            background-color: #212121;
+        }
+
+        .princ{
+            background: #292929;
+            border: 2px solid #FFF;
+            text-align: center;
+            height: 200px;
+            width: 450px;
+            top: 50px;
+            margin: 0px auto;
+            position: relative;
+            box-shadow: 0px 10px 25px #151515;
+        }
+
+        .bienv{
+            background: #191919;
+            height: 30px;
+        }
+
+        .a_bie{
+            color: #FFF;
+            position: relative;
+            top: 5.5px;
+            font-family: monospace;
+            transition: .3s;
+        }
+
+        .conte{
+            height: 170px;
+            width: 450px;
+        }
+
+        .link{
+            text-decoration: none;
+            color: #FFF;
+            font-family: monospace;
+            position: relative;
+            display: inherit;
+            top: 55px;
+            font-size: 13px;
+            font-weight: 500;
+        }
+
+        .foto{
+            background: #292929;
+            border: 3px solid #FFF;
+            text-align: center;
+            height: 200px;
+            width: 356px;
+            top: 100px; 
+            margin: 0px auto;
+            position: relative;
+            box-shadow: 0px 10px 25px #151515;
+        }
+
+        img{
+            height: 200px;
+            opacity: .7;
+            transition: .3s;
+        }
+
+        .a_bie:hover{
+            animation-name: rainbow;
+            animation-duration: .8s;
+            animation-iteration-count: infinite;
+            text-decoration: line-through;}
+        
+        .princ:hover{border: 2px solid #FFF}
+
+        .link:hover{transition: .3s;}
+
+        #link1:hover{color: var(--c1)}
+        #link2:hover{color: var(--c2)}
+        #link3:hover{color: var(--c3)}
+        #link4:hover{color: var(--c4)}
+        
+        img:hover{opacity: 1;transition: .3s;}
+        
+    </style>
+</head>
+
+<body>
+    <div class="princ">
+        <div class="bienv">
+            <a class="a_bie">Bienvenido</a>
+        </div>
+        <div class="conte">
+            <a href="https://www.4chan.org/" class="link" id="link1">4chan</a>
+            <a href="https://www.youtube.com/feed/subscriptions/" class="link" id="link2">YouTube</a>
+            <a href="https://www.tumblr.com/dashboard/" class="link" id="link3">Tumblr</a>
+            <a href="https://www.twitch.tv/directory/following/live" class="link" id="link4">Twitch</a>
+        </div>
+    </div>
+    <div class="foto">
+        <img src="src/asadasa1.gif"/>
+    </div>
+</body>

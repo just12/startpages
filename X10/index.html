@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>x10</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    
+    <script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('hora').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};
+    return i;
+}
+    </script>
+    
+</head>
+    
+<body onload="startTime()">
+    <div id="bar">
+        <div id="hora"></div>
+    </div>
+    <div id="alinear">
+        <div class="ventana" id="main">
+            <div class="headbar"><a class="title" id="asadasa">Links</a></div>
+            <div id="links">
+                <a class="links" href="https://www.youtube.com/feed/subscriptions" id="youtube">Youtube</a>
+                <a class="links"  href="https://4chan.org" id="fourchan">4chan</a>
+                <a class="links"  href="http://www.deviantart.com/browse/all/?columns=2" id="devianart">Deviantart</a>
+                <a class="links"  href="https://www.tumblr.com/dashboard" id="tumblr">Tumblr</a>
+            <a class="links">- - - - - - - - -</a>
+                <a class="links" href="http://animeflv.me/" id="animeflv">Animeflv.me</a>
+                <a class="links" href="http://kissmanga.com/MangaList" id="kissmanga">Kissmanga</a>
+                <a class="links" href="https://myanimelist.net/" id="myanimelist">MyAnimeList</a>
+                <a class="links" href="https://www.nyaa.se/" id="nyaa">Nyaa</a>
+            </div>
+        </div>
+        <div class="ventana" id="fotos">
+            <div class="headbar"><a class="title" id="esedese">Picture</a></div>
+            <div id="foto"></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+:root {
+--bg:  #0e0e0e !important;   /*gris     */
+--bg2: #1e1e1e !important;   /*gris2    */
+--c4:  #33adff !important;   /*azul     */  
+--c1:  #ff2525 !important;   /*rojo     */  
+--c2:  #e2c02b !important;   /*amarillo */
+--c3:  #33d041 !important;   /*verde    */
+--w1:  #FFFFFF !important;   /*blanco1  */
+--w2:  #e3e3e3 !important;   /*blanco2  */
+}
+
+@keyframes rainbow-border {
+    0%   {border-color: var(--c1);}
+    25%  {border-color: var(--c2);}
+    50%  {border-color: var(--c3);}
+    75%  {border-color: var(--c4);}
+    100% {border-color: var(--c1);}
+}
+
+@keyframes rainbow {
+    0%   {color: var(--c1);}
+    25%  {color: var(--c2);}
+    50%  {color: var(--c3);}
+    75%  {color: var(--c4);}
+    100% {color: var(--c1);}
+}
+
+body{
+    background-color: var(--bg);
+}
+
+.content{
+    background-color: var(--bg2);
+    border: 3px solid var(--w2);
+}
+
+a{
+    color: var(--w1);
+}
+
+
+.link1:hover{
+    color: var(--c1);
+}
+
+.link2:hover{
+    color: var(--c2);
+}
+
+.link3:hover{
+    color: var(--c3);
+}
+
+.link4:hover{
+    color: var(--c4);
+}

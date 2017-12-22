@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    background-image:url(src/bg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+div#principal{
+    width: 300px;
+    height: 500px;
+    position: relative;
+    top: 65px;
+    margin: 0px auto;
+}
+
+div#foto{
+    width: 300px;
+    height: 390px;
+    background-image: url(src/a7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: .3s;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+div#foto:hover{
+    width: 350px;
+    height: 390px;
+    transition: .2s;
+    position: absolute;
+    top: 0px;
+    left: -25px;
+    right: -25px;
+}
+
+div#links{
+    width: 300px;
+    height: 100px;
+    position: relative;
+    top: 400px;
+    left: 0px;
+    right: 0px;
+    background-color: #212121;
+    text-align: center;
+    transition: .3s;
+}
+
+div#links:hover{
+    transition: .3s;
+    position: absolute;
+    top: 400px;
+    width: 350px;
+    left: -25px;
+    right: -25px;
+}
+
+a{
+    display: block;
+    padding: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-family: monospace;
+    transition: .3s;
+}
+
+a:hover{
+    background-color: #eee;
+    color: #212121;
+    transition: .3s;
+}
+
+.cuadrado{
+    box-shadow: 3px 3px 5px #000;
+}

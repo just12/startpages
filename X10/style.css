@@ -1,0 +1,102 @@
+:root {
+--bg:  #252528 !important;
+--bg2: #51636C !important;
+--bg3: #18191b !important;
+--c1:  #D5D0C9 !important;
+--c2:  #A5AFB3 !important;
+--c3:  #788A93 !important;
+}
+
+html{font-family: 'Roboto', monospace;}
+
+body{
+    background-image: url(src/1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: var(--bg);
+    margin: 0px;
+}
+
+#bar{
+    background-color: var(--bg2);
+    height: 20px;
+    width: auto;
+}
+
+#hora{
+    height: 20px;
+    width: 65px;
+    background-color: var(--c3);
+    position: absolute;
+    right: 0px;
+    text-align: right;
+    padding-right: 3px;
+    color: var(--c1)
+}
+
+#alinear{
+    width: 622px;
+    height: 352px;
+    position: relative;
+    top: 100px;
+    margin: 0px auto;
+}
+
+.ventana{
+    width: 300px;
+    height: 300px;
+    background-color: var(--bg);
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.6);
+}
+
+.headbar{
+    height: 25px;
+    background-color: var(--bg2);
+    text-align: left;
+    background-image: url(src/a.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#main{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+.links{
+    color: var(--c1);
+    display: block;
+    margin-left: 5px;
+    text-decoration: none;
+    max-width: 75px;
+}
+
+.links:hover{
+    text-decoration: underline;
+    color: var(--c2);
+}
+
+#fotos{
+    position: absolute;
+    top: 50px;
+    left: 320px;
+    z-index: 1;
+}
+
+.title{
+    color: #222;;
+    position: relative;
+    top: 3px;
+    left: 3px;
+}
+
+#foto{
+    height: 275px;
+    width: 300px;
+    background-image: url(src/2.jpg);
+    background-size: contain;
+}

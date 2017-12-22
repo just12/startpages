@@ -1,0 +1,116 @@
+html{font-family: monospace;font-size: 20px}
+body{background: #212121;}
+
+#principal{
+    height: 500px;
+    width: 700px;
+    margin: auto;
+    top: 50px;
+    position: relative;
+}
+
+#primero{
+    height: 500px;
+    width: 200px;
+    position: relative;
+    margin: auto;
+    left: -250px;
+    background: #fff;
+    text-align: center;
+    background-image: url(src/1.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+#segundo{
+    height: 500px;
+    width: 200px;
+    position: relative;
+    margin: auto;
+    top: -500px;
+    background: #fff;
+    text-align: center;
+    background-image: url(src/1.jpg);
+    background-size: cover;
+    background-position: -250px;
+}
+
+#tercero{
+    height: 500px;
+    width: 200px;
+    position: relative;
+    margin: auto;
+    top: -1000px;
+    left: 250px;
+    background: #fff;
+    text-align: center;
+    background-image: url(src/1.jpg);
+    background-size: cover;
+    background-position: -500px;
+}
+
+.nombre{
+    background: #fff;
+    height: 20px;
+    width: 160px;
+    padding: 20px;
+    position: relative;
+    margin: auto;
+    top: 0px;
+}
+
+.links{
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    background: rgba(255, 255, 255, 1);
+    position: relative;
+    top: 265px;
+    left: 25px;
+    opacity: 1;
+    transition: .3s;
+    display: inherit;
+    text-align: center !important;
+    opacity: .3;
+}
+
+#segundolink{
+    height: 0px;
+    width: 0px;
+    padding: 75px;
+    display: inherit;
+}
+
+#segundolink a{
+    position: relative;
+    top: -50px;
+    left: -15px;
+}
+
+#tercerlink{
+    height: 100px;
+    width: 100px;
+    display: block;
+    text-align: center;
+}
+
+#tercerlink a{position: relative;}
+
+#a{left: -15px}
+
+#aa{left: -20px}
+
+#aaa{left: -10px}
+
+#aaaa{left: -10px}
+
+a{transition: .3s;}
+
+.links a{text-decoration: none;color: #101010;}
+
+.links:hover{opacity: 1;}
+
+.links a:hover{
+    color: #ff2525;
+    text-decoration: underline;
+}

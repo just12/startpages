@@ -1,0 +1,64 @@
+:root {
+--c1: #ffaf4d !important;
+--c2: #2a2a2a !important;
+--c3: #464646 !important;
+--c4: #696969 !important;
+--c5: #a8a8a8 !important;
+--c6: #e0e0e0 !important;
+}
+
+@font-face { font-family: monofonto; src: url(./src/monofonto.ttf) }
+@font-face { font-family: gotham; src: url(./src/gotham-rounded-medium.otf) }
+
+body{
+    background-color: var(--c5);
+    margin: 0px auto;
+    height: 452px;
+    width: 505px;
+    position: relative;
+    top: 50px;
+}
+
+.cuadrado{
+    background-color: var(--c6);
+}
+
+#divimagen{
+    width: 292px;
+    height: 444px;
+    border: 4px solid var(--c6);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: .5s;
+    background-size: cover;
+    background-position: center center;
+}
+
+#botones{
+    position: absolute;
+    height: 452px;
+    width: 200px;
+    left: 305px;
+}
+
+.boton{
+    text-align: left;
+}
+
+a.links{
+    display: block;
+    font-family: gotham, monofonto;
+    text-decoration: none;
+    color: var(--c2);
+    height: 20px;
+    padding: 2px;
+    margin: 4px;
+    position: relative;
+    top: 0px;
+}
+
+a.links:hover{
+    color: var(--c6);
+    background-color: var(--c2);
+}

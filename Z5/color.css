@@ -1,0 +1,35 @@
+:root{
+    --bg: #222222; /*Dark*/
+    --bg2: #333333; /*Dark2*/
+    --c1: #ffffff; /*White*/
+    --c2: #12ff92; /*Green*/
+}
+
+body{
+    background-color: var(--bg);
+}
+
+div.fakiu{
+    border-color: var(--c1)!important;
+    box-shadow: 0px 0px 0px 3px var(--bg)!important;
+    background-color: var(--bg)!important;
+    color: var(--c1);
+}
+
+div.fakiu:hover{
+    border-color: var(--c2)!important;
+}
+
+a.link{color: var(--c1);transition: .5s;}
+
+a.link:hover{
+    color: var(--bg);
+    background-color: var(--c2);
+    transition: .5s;
+}
+
+div.separator{background-color: var(--c2);}
+
+div#time{color: var(--c1);}
+
+a#asadasa{color: var(--c2);}

@@ -1,0 +1,130 @@
+@font-face { font-family: monaco; src: url(src/monaco.ttf)}
+@font-face { font-family: imagine; src: url(src/imagine_font.ttf)}
+
+html{
+    cursor: url("src/cursor.png")!important;
+}
+
+body{
+    margin: 0px;
+    background-image: url(src/fek.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    font-family: monaco, sans-serif;
+    cursor: url("src/cursor.png")!important;
+}
+
+div#fak{
+    min-width: 50%;
+    min-height: 662px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+div#content{
+    width: 800px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    margin: 0px auto;
+}
+
+div.fakiu{
+    border: 2px solid;
+    min-width: 50px;
+    min-height: 50px;
+    padding: 5px;
+}
+
+div#music{
+    width: 234px;
+    height: 284px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url(src/fak.png);
+}
+
+div#picture{
+    width: 527px;
+    height: 234px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+div#picture div{
+    width: auto;
+    height: 234px;
+    background-image: url(src/fok.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+div#time{
+    width: 234px;
+    height: 127px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+}
+
+a#asadasa{
+    font-size: 80px;
+    line-height: 127px;
+    font-family: imagine;
+    position: relative;
+    left: 3px;
+    top: 6px;
+}
+
+div#links{
+    width: 527px;
+    height: 177px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+div.separator{
+    width: 2px;
+    height: 147px;
+    position: absolute;
+    top: 20px;
+}
+
+div#separator1{left: 131.75px;}
+div#separator2{left: 263.5px;}
+div#separator3{left: 395.25px;}
+
+a.link{
+    display: block;
+    margin: 2px;
+    position: relative;
+    top: -10px !important;
+    padding: 2px;
+    text-decoration: none;
+    font-weight: bold;
+    height: 23px;
+    line-height: 23px;
+    transition: .5s;
+}
+
+div.links{
+    width: 111.75px;
+    height: 127px;
+    padding: 10px;
+    position: absolute;
+    top: 20px;
+    text-align: center;
+}
+
+div#group1{left: 0px;}
+div#group2{left: 131.75px;}
+div#group3{left: 263.5px;}
+div#group4{left: 395.25px;}

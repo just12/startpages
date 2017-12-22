@@ -1,0 +1,155 @@
+*{font-family: sans-serif;text-decoration: none;transition: .2s;}
+
+body{margin:0px;width:100%;height:100%;position:fixed;top: 0px;left: 0px;background-color:#999;background-size: cover;background-position: center;background-attachment: fixed;}
+
+div#center{
+  position: absolute;
+  width: 700px;
+  height: 600px;
+  top: calc(50% + 20px);
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+div#picture{
+  position: absolute;
+  width: calc(50% - 10px);
+  height: 100%;
+  left: 0px;
+  bottom: 0px;
+  background: #fff;
+  background-size: cover;
+  background-position: center;
+}
+
+div.title a{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+}
+
+div.title{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: 0px;
+  background-color: #080808;
+}
+
+div#text{
+  position: absolute;
+  width: calc(50% - 10px);
+  height: calc(70% - 10px);
+  background-color: #111;
+  right: 0px;
+  top: 0px;
+  color: #fff;
+}
+
+#text table{
+  position: absolute;
+  top: 50%;
+  transform: translate(0%,-50%);
+  overflow: hidden;
+}
+
+#text th, th a{
+  color: #fff;
+  text-decoration: none;
+  font-family: monospace;
+}
+
+#text tr th:nth-child(1){
+  color: #aaa;
+}
+
+#text tr th:nth-child(2){text-align: left;}
+
+#text tr th:nth-child(2) a{
+  display: inline block;
+  text-decoration: none;
+}
+
+#text tr th:nth-child(2) a:hover{text-decoration: underline;}
+
+div#ascii{
+  position: absolute;
+  width: calc(50% - 10px);
+  height: calc(30% - 10px);
+  background-color: #111;
+  right: 0px;
+  bottom: 0px;
+  font-family: monospace;
+  color: #fff;
+  font-size: 10px;
+}
+
+div#top{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  background-color: #080808;
+}
+
+.pestanas{
+  position: absolute;
+  background-color: #222;
+  width: 200px;
+  height: 35px;
+  border-bottom: 5px solid #333;
+}
+
+.pestanas:nth-child(1){left: 5px;}
+.pestanas:nth-child(2){left: 210px;}
+.pestanas:nth-child(3){left: 415px;}
+
+#time{
+  position: absolute;
+  width: 65px;
+  height: 40px;
+  right: 0px;
+}
+
+#time a{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  font-weight: bolder;
+}
+
+.pestanas a{
+  position: absolute;
+  transform: translate(0%,-50%);
+  top: 50%;
+  left: 10px;
+  color: #fff;
+}
+
+#ascii table{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+#ascii table tr th{
+  height: 10% !important;
+  position: absolute;
+}
+
+#ascii table tr th:nth-child(1){
+  left: 0px;
+  width: 10px !important;
+}
+
+#ascii table tr th:nth-child(2){
+  width: calc(100% - 15px);
+  right: 0px;
+  text-align: left;
+}
+
+.ventana{box-shadow: 7px 7px 25px rgba(0,0,0,.7);}

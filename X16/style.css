@@ -1,0 +1,153 @@
+*{
+  transition: .5s;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+body{
+  margin: 0px;
+  background: #222;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+a{
+  color: #fff;
+  font-family: sans-serif;
+}
+
+div#main{
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+div#main:hover{
+  width: 1000px;
+}
+
+div#picture{
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: url(src/532.png);
+  background-position: center;
+  background-size: cover;
+  z-index: 2;
+}
+
+div#main div#content{
+  width: 480px !important;
+  height: 480px;
+  background-color: #111 !important;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
+  text-align: center;
+  overflow: auto;
+  border: 10px solid #111;
+}
+
+div#main div#content a.links{
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  padding: 10px;
+  margin: 2px;
+  text-align: center;
+  width: 27%;
+  border-bottom: 5px solid #333;
+  background-color: #222;
+}
+
+div#sidebar{
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  left: -200px;
+}
+
+div#sidebar:hover{
+  left: 0px;
+  width: 200px;
+}
+
+div#sidebar div#content{
+  width: 200px;
+  height: 100%;
+  background: #111;
+  position: absolute;
+  overflow: scroll;
+  border-right: 5px solid #111;
+}
+
+div#sidebar div#content a.links{
+  display: block;
+  height: 30px;
+  width: auto;
+  line-height: 30px;
+  padding: 5px;
+  padding-left: 10px;
+  margin: 5px;
+  text-align: left !important;
+  border-bottom: 5px solid #333;
+  background-color: #222;
+}
+
+a.links:hover{
+  background: #222;
+  border-color: #f22 !important;
+}
+
+div#main div#content::-webkit-scrollbar-track{
+  border-radius: 0px;
+  background-color: #333;
+}
+
+div#main div#content::-webkit-scrollbar{
+  width: 5px;
+}
+
+div#main div#content::-webkit-scrollbar-thumb{
+  border-radius: 0px;
+  background-color: #f22;
+}
+
+div#sidebar div#content::-webkit-scrollbar-track{
+  background-color: #333;
+  margin: 5px;
+}
+
+div#sidebar div#content::-webkit-scrollbar{
+  width: 5px;
+}
+
+div#sidebar div#content::-webkit-scrollbar-thumb{
+  background-color: #f22;
+}
+
+div#sidebar div#content::-webkit-scrollbar-corner{display: none;}
+div#sidebar div#content::-webkit-scrollbar:horizontal{display: none;}
+div#sidebar div#content::-webkit-scrollbar-button:horizontal{display: none;}
+div#sidebar div#content::-webkit-scrollbar-track:horizontal{display: none;}
+div#sidebar div#content::-webkit-scrollbar-track-piece:horizontal{display: none;}
+div#sidebar div#content::-webkit-scrollbar-thumb:horizontal{display: none;}
+div#sidebar div#content::-webkit-scrollbar-corner:horizontal{display: none;}
+div#sidebar div#content::-webkit-resizer:horizontal{display: none;}
+
+
+:horizontal

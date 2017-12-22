@@ -1,0 +1,190 @@
+/*width: 681px*/
+
+/*
+html{
+    background-image: url(src/imagenes/);
+    background-color: #444;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*//*
+html{
+    background: 
+    radial-gradient(circle, transparent 20%, #111 20%, #111 80%, transparent 80%, transparent),
+    radial-gradient(circle, transparent 20%, #111 20%, #111 80%, transparent 80%, transparent) 50px 50px,
+    linear-gradient(#333 8px, transparent 8px) 0 -4px,
+    linear-gradient(90deg, #333 8px, transparent 8px) -4px 0;
+    background-color: #111;
+    background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
+}
+*/
+
+html{
+    background-image: url(src/imagenes/back.png);
+    background-position: center center;
+}
+
+body{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+a{
+    color: #eee;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    font-family: sans-serif;
+}
+
+div#content{
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div#picture{
+    width: 580px;
+    height: 320px;
+    background-size: cover;
+    background-position: 0px -px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transition: .2s;
+    transition-delay: .2s;
+    background-color: #151515;
+    z-index: 2;
+}
+
+div#pictureframe{
+    width: 600px;
+    height: 340px;
+    position: absolute;
+    top: 0px;
+    background-color: #222;
+    z-index: 1;
+}
+
+div#links{
+    width: 600px;
+    height: 150px;
+    text-align: center;
+    position: absolute;
+    top: 350px;
+}
+
+div.link-group{
+    width: 130px;
+    height: 110px;
+    border-top: 30px solid #282828;
+    position: absolute;
+    background-color: #151515;
+    padding: 5px;
+    transition: .5s;
+}
+
+div.link-group:hover{
+    border-color: #333;
+    transition: .5s;
+}
+
+div.link-group a{
+    position: relative;
+    top: 0px;
+    height: 27.5px;
+    line-height: 27.5px;
+    transition: .5s;
+}
+
+div.link-group a:hover{
+    color: #666;
+    transition: .5s;
+}
+
+div#group1{left: 0px;}
+div#group2{left: 153.5px;}
+div#group3{right: 153.5px;}
+div#group4{right: 0px;}
+
+div#topbar{
+    height: 25px;
+    margin: 20px;
+    background-color: #1f1f1f;
+    z-index: 1;
+    background-image: url(src/imagenes/7.jpg);
+    background-size: 250px;
+    background-position: center 30%;
+    background-repeat: no-repeat;
+}
+
+div#topbar a{
+    font-size: 15px;
+    font-style: italic;
+    width: 189px;
+    height: 25px;
+    line-height: 25px;
+    position: relative;
+    left: 5px;
+}
+
+form#google{
+    width: 541px;
+}
+
+input{
+    width: 130px;
+    height: 23px;
+    background-color: #191919;
+    border: 0px;
+    color: #eee;
+    padding-left: 5px;
+    outline: none;
+    transition: .5s;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    right: 0px !important;
+}
+
+input:focus{
+    width: 536px;
+    height: 23px;
+    outline: none;
+    transition: .5s;
+    margin: 0px auto;
+}
+
+div#test{
+    min-width: 641px;
+    max-width: inherit;
+    height: 25px;
+    background-color: #222;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 20px;
+    line-height: 25px;
+    text-align: center;
+    display: none;
+}
+
+div#time{
+    width: 100px;
+    height: 25px;
+    background-color: #191919;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+    color: #eee;
+    text-align: center;
+    line-height: 25px;
+    font-family: sans-serif;
+    font-style: italic;
+}

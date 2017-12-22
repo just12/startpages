@@ -1,0 +1,68 @@
+@font-face{
+    font-family: 'bnt';
+    src: url(src/big_noodle_titling.ttf)
+}
+
+html{
+    font-family: bnt,monospace;
+    font-size: 12px !important;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(src/bg/asadasa2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #212121;
+}
+
+.content{
+    width: 270px;
+    height: 135px;
+    background: none;
+	position: absolute;
+	margin: auto;
+	top: 0;
+    bottom: 0;
+	left: 0;
+    right: 0;
+    text-align: center;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+.content:hover{
+    opacity: 0.95;
+    transition: 0.3s;
+}
+
+a{
+    font-size: 30px;
+    text-decoration: none;
+    transition: 0.25s;
+    display: block;
+    margin: auto;
+    text-shadow: 5px 5px 50px 5px black;
+    opacity: 1 !important;
+}
+
+a:hover{
+    text-decoration: underline;
+    transition: 0.25s;
+}
+
+#fondo{
+    height: 100%:
+}
+
+#img_fondo{    
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    position:fixed;
+    z-index: -1;   
+}

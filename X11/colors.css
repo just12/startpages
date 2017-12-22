@@ -1,0 +1,48 @@
+:root {
+--bg: #212121 !important;          /*  var(--bg)   */
+--bg2: #151515 !important;          /*  var(--bg2)   */  
+--bg-dark: #0a0a0a !important;             /*  var(--bg-dark)   */
+--bg3: rgba(20,21,31,0.89) !important;      /* semi transparent bg */
+--c1: #ff2424 !important;             /*  grey  */  
+--c2: #eee !important;             /*  green   */  
+--c3: #fff !important;             /* blue  */
+}
+
+@keyframes rainbow {
+    0%   {color: #ff2424;}
+    25%  {color: #ffff24;}
+    50%  {color: #5bff24;}
+    75%  {color: #245bff;}
+    100% {color: #ff24c8;}
+}
+
+a{color: var(--c2);}
+
+body{
+    background-color: var(--bg);
+}
+
+.cuadro{
+    background-color: var(--bg2);
+    border: 2px solid var(--c1)
+}
+
+.links:hover{
+    color: var(--c1);
+}
+
+span:active{
+    animation-name: rainbow;
+    animation-duration: .2s;
+    animation-iteration-count: infinite;
+    text-shadow: 0px 0px 10px #bbb;
+}
+
+::selection {
+    color: var(--bg2);
+    background: #fff;
+}
+
+#foto{
+    background-color: #fff;
+}
