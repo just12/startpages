@@ -66,3 +66,6 @@ Collection of my startpages.
 
 ### Z12-ff_edition
 ![alt text](https://raw.githubusercontent.com/just12/startpages/master/Z12-ff_edition/screenshot.png)
+
+### Z13
+![alt text](https://raw.githubusercontent.com/just12/startpages/master/Z13/screenshot.png)
