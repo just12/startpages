@@ -1,6 +1,11 @@
+@font-face {
+    font-family: lime;
+    src: url(lime.bdf);
+}
+
 *{
   color: #fff;
-  font-family: sans-serif;
+  font-family: lime, sans-serif !important;
   text-decoration: none;
   font-size: 15px;
   transition: .2s;
